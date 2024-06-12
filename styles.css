@@ -124,24 +124,13 @@ figcaption {
   }
   .mobile,
   .home {
-    display: flex;
-    flex-direction: column;
+    display: block;
     margin: auto;
-    text-align: center;
-    width: 80%;
-    justify-content: center;
-    align-items: center;
   }
   header,
-  nav,
-  main,
-  section {
+  nav {
     display: block;
-    flex-direction: column;
-    width: 80%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    margin: auto;
   }
 
   img {
@@ -149,12 +138,16 @@ figcaption {
   }
 
   nav ul {
-    display: flex;
+    display: block;
     flex-direction: column;
     width: 50%;
     margin: auto;
-    align-items: center;
-    justify-content: center;
+  }
+
+  figcaption {
+    font-size: 1rem;
+    min-height: 80%;
+    min-width: 80%;
   }
 
   ul {
