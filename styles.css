@@ -1,0 +1,156 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 90vh;
+  max-width: 90vw;
+  background: rgb(29, 29, 29);
+  color: #fff;
+  margin: auto;
+  display: block;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav {
+  width: 50%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul li a {
+  height: 100%;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  height: 100%;
+  padding: 10px;
+  background-color: lightcyan;
+  color: #000;
+}
+
+main {
+  width: 100%;
+  margin: auto;
+}
+
+.name {
+  font-size: 1.8rem;
+}
+
+.intro,
+.others h5 {
+  text-align: center;
+  margin: 50px 0 0 0;
+  font-size: 1.5rem;
+}
+
+section {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  padding: 20px;
+  height: 500px;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+}
+
+figcaption {
+  border: 1px solid;
+  width: 60%;
+  margin: auto;
+}
+
+.services {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.services-info {
+  display: block;
+  text-align: left;
+}
+
+.services-info li {
+  list-style-type: disc;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: auto;
+}
+
+@media screen and (max-width: 992px) {
+  #home {
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile,
+  .home {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+  header,
+  nav,
+  main,
+  section {
+    display: block;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+}
